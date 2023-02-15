@@ -5,3 +5,28 @@
   justify-content: space-between;
   padding: 0 25px 0 25px;
 }
+
+@media screen and (min-width: 0px) {
+  .cabecalhoPrincipal {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalhoPrincipal {
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 0) {
+  .logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+}
