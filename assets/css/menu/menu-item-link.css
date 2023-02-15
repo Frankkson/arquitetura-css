@@ -1,0 +1,15 @@
+.menu-item-link {
+  color: #808080;
+  margin-right: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.menu-item-link:hover {
+  text-decoration: underline;
+}
+
+.menu-item-link:active {
+  color: #333333;
+  font-weight: bold;
+}
